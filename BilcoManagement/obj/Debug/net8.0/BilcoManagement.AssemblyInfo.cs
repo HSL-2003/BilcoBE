@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("b7f61a1e-ee9c-4698-af92-4462ba2a8016")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BilcoManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c970ec8ddb00227e9ea0976ca3600514926bbca4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BilcoManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BilcoManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
