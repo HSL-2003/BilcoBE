@@ -1,0 +1,681 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CN9\\BilcoManagement\\BilcoManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\kiemkekhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\kiemkekhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\nguoidungprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\nguoidungprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\dtos\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:dtos\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\repositories\\nguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:repositories\\nguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\inguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\inguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:models\\phanquyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\thietbiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\thietbiprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\tonkhoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\tonkhoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\khoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\khoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\nhanvienprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\nhanvienprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\repositories\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:repositories\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\thietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\thietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\khocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\khocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\ithietbiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\ithietbiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\ikhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\ikhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\tonkhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\tonkhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\thietbiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\thietbiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\khoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\khoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\repositories\\thietbirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:repositories\\thietbirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\repositories\\khorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:repositories\\khorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\ikhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\ikhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\ithietbirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\ithietbirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\itonkhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\itonkhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\repositories\\tonkhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:repositories\\tonkhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\dtos\\thietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:dtos\\thietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\dtos\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:dtos\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\models\\thietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:models\\thietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\dtos\\khodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:dtos\\khodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\models\\quanlychatluongsanphamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:models\\quanlychatluongsanphamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KiemKeKhoController.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\KiemKeKhoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KiemKeKhoController.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\KiemKeKhoController.cs",
+              "RelativeToolTip": "Controllers\\KiemKeKhoController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:09:59.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T02:05:08.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NguoiDungProfile.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NguoiDungProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\NguoiDungProfile.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NguoiDungProfile.cs",
+              "RelativeToolTip": "Profiles\\NguoiDungProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T02:13:15.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAAAAP0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:04:12.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INguoiDungRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\INguoiDungRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\INguoiDungRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\INguoiDungRepository.cs",
+              "RelativeToolTip": "Interfaces\\INguoiDungRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:02:59.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAA8BAAAAAAAAAAAQwCsBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:57:26.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NguoiDungDTO.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NguoiDungDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\NguoiDungDTO.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NguoiDungDTO.cs",
+              "RelativeToolTip": "DTOs\\NguoiDungDTO.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAA4wLoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T02:05:37.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TonKhoProfile.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\TonKhoProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\TonKhoProfile.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\TonKhoProfile.cs",
+              "RelativeToolTip": "Profiles\\TonKhoProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:08:12.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAASwGQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:56:34.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NguoiDungRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\NguoiDungRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\NguoiDungRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\NguoiDungRepository.cs",
+              "RelativeToolTip": "Repositories\\NguoiDungRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:03:49.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NhanVienProfile.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NhanVienProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\NhanVienProfile.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NhanVienProfile.cs",
+              "RelativeToolTip": "Profiles\\NhanVienProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:08:09.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KhoProfile.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\KhoProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\KhoProfile.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\KhoProfile.cs",
+              "RelativeToolTip": "Profiles\\KhoProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:06:09.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThietBiController.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\ThietBiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ThietBiController.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\ThietBiController.cs",
+              "RelativeToolTip": "Controllers\\ThietBiController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwCUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:59:38.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PhanQuyen.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\PhanQuyen.cs",
+              "RelativeDocumentMoniker": "Models\\PhanQuyen.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\PhanQuyen.cs",
+              "RelativeToolTip": "Models\\PhanQuyen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:50:13.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThietBiProfile.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\ThietBiProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\ThietBiProfile.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\ThietBiProfile.cs",
+              "RelativeToolTip": "Profiles\\ThietBiProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:08:50.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NhanVienRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\NhanVienRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\NhanVienRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\NhanVienRepository.cs",
+              "RelativeToolTip": "Repositories\\NhanVienRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:56:53.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "Controllers\\NhanVienController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:58:23.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ThietBiService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\ThietBiService.cs",
+              "RelativeDocumentMoniker": "Services\\ThietBiService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\ThietBiService.cs",
+              "RelativeToolTip": "Services\\ThietBiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:54:45.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TonKhoService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\TonKhoService.cs",
+              "RelativeDocumentMoniker": "Services\\TonKhoService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\TonKhoService.cs",
+              "RelativeToolTip": "Services\\TonKhoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:57:10.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IThietBiService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IThietBiService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IThietBiService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IThietBiService.cs",
+              "RelativeToolTip": "Interfaces\\IThietBiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:58:08.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KhoController.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\KhoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KhoController.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\KhoController.cs",
+              "RelativeToolTip": "Controllers\\KhoController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:59:48.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KhoService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\KhoService.cs",
+              "RelativeDocumentMoniker": "Services\\KhoService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\KhoService.cs",
+              "RelativeToolTip": "Services\\KhoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:54:25.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IKhoRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IKhoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IKhoRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IKhoRepository.cs",
+              "RelativeToolTip": "Interfaces\\IKhoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:51:26.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IKhoService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IKhoService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IKhoService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IKhoService.cs",
+              "RelativeToolTip": "Interfaces\\IKhoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:51:19.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:51:15.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IThietBiRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IThietBiRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IThietBiRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IThietBiRepository.cs",
+              "RelativeToolTip": "Interfaces\\IThietBiRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:44:01.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ThietBiRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\ThietBiRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ThietBiRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\ThietBiRepository.cs",
+              "RelativeToolTip": "Repositories\\ThietBiRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:48:50.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KhoRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\KhoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\KhoRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\KhoRepository.cs",
+              "RelativeToolTip": "Repositories\\KhoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:48:59.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ITonKhoRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\ITonKhoRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITonKhoRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\ITonKhoRepository.cs",
+              "RelativeToolTip": "Interfaces\\ITonKhoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:51:06.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TonKhoRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\TonKhoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TonKhoRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\TonKhoRepository.cs",
+              "RelativeToolTip": "Repositories\\TonKhoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:50:55.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "INhanVienRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\INhanVienRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\INhanVienRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\INhanVienRepository.cs",
+              "RelativeToolTip": "Interfaces\\INhanVienRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:43:24.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BaseRepository.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:50:51.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ThietBiDTO.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\ThietBiDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ThietBiDTO.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\ThietBiDTO.cs",
+              "RelativeToolTip": "DTOs\\ThietBiDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:39:40.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "KhoDTO.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\KhoDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\KhoDTO.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\KhoDTO.cs",
+              "RelativeToolTip": "DTOs\\KhoDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:38:53.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "Models\\NguoiDung.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "Models\\NguoiDung.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:38:26.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ThietBi.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\ThietBi.cs",
+              "RelativeDocumentMoniker": "Models\\ThietBi.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\ThietBi.cs",
+              "RelativeToolTip": "Models\\ThietBi.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:38:11.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NhanVienDTO.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NhanVienDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\NhanVienDTO.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NhanVienDTO.cs",
+              "RelativeToolTip": "DTOs\\NhanVienDTO.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T02:03:50.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IService.cs",
+              "RelativeToolTip": "Interfaces\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:52:55.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "Services\\BaseService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\BaseService.cs",
+              "RelativeToolTip": "Services\\BaseService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T01:35:50.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "QuanLyChatLuongSanPhamContext.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\QuanLyChatLuongSanPhamContext.cs",
+              "RelativeDocumentMoniker": "Models\\QuanLyChatLuongSanPhamContext.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\QuanLyChatLuongSanPhamContext.cs",
+              "RelativeToolTip": "Models\\QuanLyChatLuongSanPhamContext.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwBsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:32:27.271Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
