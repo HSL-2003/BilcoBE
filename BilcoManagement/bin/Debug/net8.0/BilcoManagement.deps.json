@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Tools": "10.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.20.1",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -458,7 +459,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/10.0.0": {},
+      "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "8.0.0"
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
@@ -620,6 +625,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.1": {},
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
@@ -1082,12 +1088,12 @@
       "path": "microsoft.entityframeworkcore.sqlserver/8.0.0",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.8.0.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/10.0.0": {
+    "Microsoft.EntityFrameworkCore.Tools/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Gx6AWCf1CsBHTbvVVWBYBKp6hrwZt0IgBigoBPaybwOBG2EFIfZc7NP2BoR6r56YuuikbPIzCuvQuFYNnX43+A==",
-      "path": "microsoft.entityframeworkcore.tools/10.0.0",
-      "hashPath": "microsoft.entityframeworkcore.tools.10.0.0.nupkg.sha512"
+      "sha512": "sha512-zRdaXiiB1gEA0b+AJTd2+drh78gkEA4HyZ1vqNZrKq4xwW8WwavSiQsoeb1UsIMZkocLMBbhQYWClkZzuTKEgQ==",
+      "path": "microsoft.entityframeworkcore.tools/8.0.0",
+      "hashPath": "microsoft.entityframeworkcore.tools.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
@@ -1235,6 +1241,13 @@
       "sha512": "sha512-N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H4bIRdEOuyWBotgdPA5oCjJmUekWrtU5lOKnMAVaSNduZXHnqFZECsYbkm4vIOE4aeIO8TEYqfsZaJus1KknLQ==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.20.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "type": "package",

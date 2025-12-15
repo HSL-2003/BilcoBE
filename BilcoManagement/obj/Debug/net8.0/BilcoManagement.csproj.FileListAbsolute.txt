@@ -139,3 +139,4 @@ D:\CN9\BilcoManagement\BilcoManagement\obj\Debug\net8.0\BilcoManagement.genrunti
 D:\CN9\BilcoManagement\BilcoManagement\obj\Debug\net8.0\ref\BilcoManagement.dll
 D:\CN9\BilcoManagement\BilcoManagement\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\CN9\BilcoManagement\BilcoManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CN9\BilcoManagement\BilcoManagement\obj\Debug\net8.0\BilcoManagement.sourcelink.json
