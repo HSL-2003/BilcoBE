@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\CN9\\BilcoManagement\\BilcoManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\nguoidungprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\nguoidungprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\nhanvienprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\nhanvienprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\dtos\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:dtos\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\nguoidungprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\nguoidungprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\profiles\\nhanvienprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:profiles\\nhanvienprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -182,7 +182,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NguoiDungProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NguoiDungProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\NguoiDungProfile.cs",
@@ -227,38 +227,37 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAAKQAAAAAAAAAAAApwMAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:04:12.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T10:04:12.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
               "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AQIAAMcAAAAAAAAAAAAEwNQAAABaAAAA",
+              "ViewState": "AQIAANIAAAAAAAAAAAAQwNkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T09:57:26.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NguoiDungDTO.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NguoiDungDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\NguoiDungDTO.cs",
               "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NguoiDungDTO.cs",
               "RelativeToolTip": "DTOs\\NguoiDungDTO.cs",
-              "ViewState": "AQIAAMgAAAAAAAAAAAA7wNEAAAADAAAA",
+              "ViewState": "AQIAANEAAAAAAAAAAAAywNEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T02:05:37.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NhanVienProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NhanVienProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\NhanVienProfile.cs",
@@ -266,8 +265,7 @@
               "RelativeToolTip": "Profiles\\NhanVienProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T04:08:09.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T04:08:09.283Z"
             },
             {
               "$type": "Document",
@@ -279,8 +277,7 @@
               "RelativeToolTip": "Models\\QuanLyChatLuongSanPhamContext.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAQwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:32:27.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T09:32:27.271Z"
             },
             {
               "$type": "Document",
@@ -292,8 +289,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:56:34.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T01:56:34.639Z"
             },
             {
               "$type": "Document",
@@ -317,8 +313,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-12T02:03:23.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T02:03:23.456Z"
             },
             {
               "$type": "Document",

@@ -210,34 +210,35 @@ namespace BilcoManagement.Services
             }
         }
 
-        public async Task<NhanVienDTO> UpdateNhanVienInfoAsync(int maNV, UpdateNhanVienDto updateDto)
+        public async Task<NguoiDungDTO> UpdateNhanVienInfoAsync(int maNV, UpdateNhanVienDto updateDto)
         {
-            var nhanVien = await _context.NhanViens.FindAsync(maNV);
-            if (nhanVien == null)
+            // Find the NguoiDung by MaNV
+            var nguoiDung = await _context.NguoiDungs.FirstOrDefaultAsync(nd => nd.MaNV == maNV);
+            if (nguoiDung == null)
             {
-                throw new KeyNotFoundException($"Không tìm thấy nhân viên với mã {maNV}");
+                throw new KeyNotFoundException($"Không tìm thấy người dùng với mã nhân viên {maNV}");
             }
 
             // Update only the properties that are provided in the DTO
             if (!string.IsNullOrEmpty(updateDto.HoTen))
-                nhanVien.HoTen = updateDto.HoTen;
+                nguoiDung.TenDangNhap = updateDto.HoTen;
             
             if (!string.IsNullOrEmpty(updateDto.Email))
-                nhanVien.Email = updateDto.Email;
+                nguoiDung.Email = updateDto.Email;
             
             if (!string.IsNullOrEmpty(updateDto.SoDienThoai))
-                nhanVien.SoDienThoai = updateDto.SoDienThoai;
-            
-            if (!string.IsNullOrEmpty(updateDto.ChucVu))
-                nhanVien.ChucVu = updateDto.ChucVu;
-            
+                nguoiDung.SoDienThoai = updateDto.SoDienThoai;
             if (!string.IsNullOrEmpty(updateDto.PhongBan))
-                nhanVien.PhongBan = updateDto.PhongBan;
-
-            _context.NhanViens.Update(nhanVien);
+                nguoiDung.PhongBan = updateDto.PhongBan;
+            if(!string.IsNullOrEmpty(updateDto.ChucVu))
+                nguoiDung.ChucVu = updateDto.ChucVu;
+            
+            // Update the NguoiDung entity
+            _context.NguoiDungs.Update(nguoiDung);
             await _context.SaveChangesAsync();
 
-            return _mapper.Map<NhanVienDTO>(nhanVien);
+            // Map the updated NguoiDung to NguoiDungDTO
+            return _mapper.Map<NguoiDungDTO>(nguoiDung);
         }
 
         public async Task<NguoiDungDTO> UpdateUserProfileAsync(int userId, UpdateUserProfileDto updateDto)
