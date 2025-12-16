@@ -12,6 +12,10 @@ namespace BilcoManagement.Profiles
             CreateMap<CreateNhanVienDTO, Models.NhanVien>();
             CreateMap<UpdateNhanVienDTO, Models.NhanVien>()
                 .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
+                
+            // Add mapping for UpdateNhanVienDto
+            CreateMap<UpdateNhanVienDto, Models.NhanVien>()
+                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
         }
     }
 }

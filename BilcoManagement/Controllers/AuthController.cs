@@ -171,19 +171,25 @@ namespace BilcoManagement.Controllers
         [Authorize(Roles = "1")]
         public async Task<IActionResult> UpdateNhanVien(int maNV, [FromBody] UpdateNhanVienDto updateDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             try
             {
-                var result = await _authService.UpdateNhanVienInfoAsync(maNV, updateDto);
-                return result ? NoContent() : StatusCode(500, "Có lỗi xảy ra khi cập nhật thông tin nhân viên");
+                var updatedNhanVien = await _authService.UpdateNhanVienInfoAsync(maNV, updateDto);
+                return Ok(updatedNhanVien);
             }
             catch (KeyNotFoundException ex)
             {
+                _logger.LogWarning(ex, "Không tìm thấy nhân viên với mã {MaNV}", maNV);
                 return NotFound(ex.Message);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Lỗi khi cập nhật thông tin nhân viên");
-                return StatusCode(500, "Đã xảy ra lỗi khi cập nhật thông tin nhân viên");
+                _logger.LogError(ex, "Lỗi khi cập nhật thông tin nhân viên có mã {MaNV}", maNV);
+                return StatusCode(500, new { Message = "Đã xảy ra lỗi khi cập nhật thông tin nhân viên", Error = ex.Message });
             }
         }
         [HttpGet("debug-token")]

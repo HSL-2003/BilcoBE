@@ -12,7 +12,7 @@ namespace BilcoManagement.Interfaces
         Task<IEnumerable<NguoiDungDTO>> GetPendingUsersAsync();
         Task<NguoiDungDTO> AdminCreateUserAsync(AdminCreateNguoiDungDTO createDto);
         Task<IEnumerable<NguoiDungDTO>> GetAllUsersAsync();
-        Task<bool> UpdateNhanVienInfoAsync(int maNV, UpdateNhanVienDto updateDto);
+        Task<NhanVienDTO> UpdateNhanVienInfoAsync(int maNV, UpdateNhanVienDto updateDto);
         Task<NguoiDungDTO> UpdateUserProfileAsync(int userId, UpdateUserProfileDto updateDto);
         Task<NguoiDungDTO> GetUserByIDAsync(int userId);
         Task<NguoiDungDTO> DeleteUserByIdAsync(int userId);

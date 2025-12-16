@@ -210,19 +210,34 @@ namespace BilcoManagement.Services
             }
         }
 
-        public async Task<bool> UpdateNhanVienInfoAsync(int maNV, UpdateNhanVienDto updateDto)
+        public async Task<NhanVienDTO> UpdateNhanVienInfoAsync(int maNV, UpdateNhanVienDto updateDto)
         {
             var nhanVien = await _context.NhanViens.FindAsync(maNV);
             if (nhanVien == null)
             {
-                throw new KeyNotFoundException("Không tìm thấy nhân viên");
+                throw new KeyNotFoundException($"Không tìm thấy nhân viên với mã {maNV}");
             }
 
-            _mapper.Map(updateDto, nhanVien);
+            // Update only the properties that are provided in the DTO
+            if (!string.IsNullOrEmpty(updateDto.HoTen))
+                nhanVien.HoTen = updateDto.HoTen;
+            
+            if (!string.IsNullOrEmpty(updateDto.Email))
+                nhanVien.Email = updateDto.Email;
+            
+            if (!string.IsNullOrEmpty(updateDto.SoDienThoai))
+                nhanVien.SoDienThoai = updateDto.SoDienThoai;
+            
+            if (!string.IsNullOrEmpty(updateDto.ChucVu))
+                nhanVien.ChucVu = updateDto.ChucVu;
+            
+            if (!string.IsNullOrEmpty(updateDto.PhongBan))
+                nhanVien.PhongBan = updateDto.PhongBan;
+
             _context.NhanViens.Update(nhanVien);
             await _context.SaveChangesAsync();
 
-            return true;
+            return _mapper.Map<NhanVienDTO>(nhanVien);
         }
 
         public async Task<NguoiDungDTO> UpdateUserProfileAsync(int userId, UpdateUserProfileDto updateDto)
