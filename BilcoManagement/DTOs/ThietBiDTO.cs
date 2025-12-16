@@ -31,7 +31,7 @@
 
         public string MaSo { get; set; }
 
-       
+       public string ViTriLapDat { get; set; }
 
         public DateOnly? NgayLapDat { get; set; }
 
