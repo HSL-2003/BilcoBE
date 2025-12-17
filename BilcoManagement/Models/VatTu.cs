@@ -43,7 +43,7 @@ public partial class VatTu
 
     public virtual NhaCungCap MaNCCNavigation { get; set; }
 
-    public virtual NhanVien NguoiTaoNavigation { get; set; }
+    public virtual NguoiDung NguoiTaoNavigation { get; set; }
 
     public virtual ICollection<TonKho> TonKhos { get; set; } = new List<TonKho>();
 }

@@ -18,6 +18,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<QuanLyChatLuongSanPhamContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Add HttpContextAccessor
+builder.Services.AddHttpContextAccessor();
+
 // Add AutoMapper
 builder.Services.AddAutoMapper(
     typeof(Program),
@@ -36,7 +39,10 @@ builder.Services.AddAutoMapper(
     typeof(KiemKeKhoProfile),
     typeof(LichSuSuCoProfile),
     typeof(LoaiThietBiProfile),
-    typeof(NguoiDungProfile));
+    typeof(NguoiDungProfile),
+    typeof(VatTuProfile),
+    typeof(LoaiVatTuProfile),
+    typeof(NhaCungCapProfile));
 
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 
@@ -58,6 +64,9 @@ builder.Services.AddScoped<IKiemKeKhoRepository, KiemKeKhoRepository>();
 builder.Services.AddScoped<ILichSuSuCoRepository, LichSuSuCoRepository>();
 builder.Services.AddScoped<ILoaiThietBiRepository, LoaiThietBiRepository>();
 builder.Services.AddScoped<INguoiDungRepository, NguoiDungRepository>();
+builder.Services.AddScoped<IVatTuRepository, VatTuRepository>();
+builder.Services.AddScoped<ILoaiVatTuRepository, LoaiVatTuRepository>();
+builder.Services.AddScoped<INhaCungCapRepository, NhaCungCapRepository>();
 
 // Add Services
 builder.Services.AddScoped<IKhoService, KhoService>();
@@ -75,6 +84,9 @@ builder.Services.AddScoped<IKeHoachBaoTriService, KeHoachBaoTriService>();
 builder.Services.AddScoped<IKiemKeKhoService, KiemKeKhoService>();
 builder.Services.AddScoped<ILichSuSuCoService, LichSuSuCoService>();
 builder.Services.AddScoped<ILoaiThietBiService, LoaiThietBiService>();
+builder.Services.AddScoped<IVatTuService, VatTuService>();
+builder.Services.AddScoped<ILoaiVatTuService, LoaiVatTuService>();
+builder.Services.AddScoped<INhaCungCapService, NhaCungCapService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>() ?? new JwtSettings();

@@ -673,7 +673,7 @@ public partial class QuanLyChatLuongSanPhamContext : DbContext
 
             entity.HasOne(d => d.NguoiTaoNavigation).WithMany(p => p.VatTus)
                 .HasForeignKey(d => d.NguoiTao)
-                .HasConstraintName("FK__VatTu__NguoiTao__59FA5E80");
+                .HasConstraintName("FK__VatTu__NguoiTao");
         });
 
         OnModelCreatingPartial(modelBuilder);

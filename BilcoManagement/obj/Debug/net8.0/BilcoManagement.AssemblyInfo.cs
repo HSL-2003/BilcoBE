@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BilcoManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+601b1733590cc1e1abe48f6291d04af6a802877e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aebd6afd858c7ac45e824f3636057a1b061c58ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("BilcoManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BilcoManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
