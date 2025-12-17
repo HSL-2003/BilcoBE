@@ -21,7 +21,7 @@ namespace BilcoManagement.DTOs
 
         public DateTime? ThoiGianPhatHien { get; set; }
 
-        public int? NguoiBaoCao { get; set; }
+        public int? NguoiDungID { get; set; }
 
         [StringLength(50)]
         public string TrangThai { get; set; }
@@ -48,7 +48,7 @@ namespace BilcoManagement.DTOs
 
         public DateTime? ThoiGianPhatHien { get; set; }
 
-        public int? NguoiBaoCao { get; set; }
+        public int? NguoiDungID { get; set; }
 
         [StringLength(50)]
         public string TrangThai { get; set; }

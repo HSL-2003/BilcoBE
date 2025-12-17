@@ -331,9 +331,9 @@ public partial class QuanLyChatLuongSanPhamContext : DbContext
                 .HasForeignKey(d => d.MaThietBi)
                 .HasConstraintName("FK__LichSuSuC__MaThi__1EA48E88");
 
-            entity.HasOne(d => d.NguoiBaoCaoNavigation).WithMany(p => p.LichSuSuCos)
-                .HasForeignKey(d => d.NguoiBaoCao)
-                .HasConstraintName("FK__LichSuSuC__Nguoi__1F98B2C1");
+            entity.HasOne(d => d.NguoiDung).WithMany(p => p.LichSuSuCos)
+                .HasForeignKey(d => d.NguoiDungID)
+                .HasConstraintName("FK__LichSuSuC__NguoiDungID");
         });
 
         modelBuilder.Entity<LoaiThietBi>(entity =>

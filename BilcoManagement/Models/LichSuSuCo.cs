@@ -19,7 +19,7 @@ public partial class LichSuSuCo
 
     public DateTime? ThoiGianPhatHien { get; set; }
 
-    public int? NguoiBaoCao { get; set; }
+    public int? NguoiDungID { get; set; }
 
     public string TrangThai { get; set; }
 
@@ -29,5 +29,5 @@ public partial class LichSuSuCo
 
     public virtual ThietBi MaThietBiNavigation { get; set; }
 
-    public virtual NhanVien NguoiBaoCaoNavigation { get; set; }
+    public virtual NguoiDung NguoiDung { get; set; }
 }

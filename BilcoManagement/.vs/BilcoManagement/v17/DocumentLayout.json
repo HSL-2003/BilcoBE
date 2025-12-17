@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\CN9\\BilcoManagement\\BilcoManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\migrations\\20251217025923_updatelichsusuco_usenguoidunginsteadofnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:migrations\\20251217025923_updatelichsusuco_usenguoidunginsteadofnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\models\\quanlychatluongsanphamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:models\\quanlychatluongsanphamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\services\\lichsusucoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:services\\lichsusucoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\lichsusucocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\lichsusucocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\controllers\\thietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:controllers\\thietbicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\models\\quanlychatluongsanphamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|solutionrelative:models\\quanlychatluongsanphamcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C6E3C6A-658C-4347-952F-84CE0AC64CA0}|BilcoManagement.csproj|d:\\cn9\\bilcomanagement\\bilcomanagement\\bilcomanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -182,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,20 +218,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AQIAANIAAAAAAAAAAAAQwNkAAAANAAAA",
+              "DocumentIndex": 0,
+              "Title": "20251217025923_UpdateLichSuSuCo_UseNguoiDungInsteadOfNhanVien.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Migrations\\20251217025923_UpdateLichSuSuCo_UseNguoiDungInsteadOfNhanVien.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251217025923_UpdateLichSuSuCo_UseNguoiDungInsteadOfNhanVien.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Migrations\\20251217025923_UpdateLichSuSuCo_UseNguoiDungInsteadOfNhanVien.cs",
+              "RelativeToolTip": "Migrations\\20251217025923_UpdateLichSuSuCo_UseNguoiDungInsteadOfNhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:57:26.194Z",
+              "WhenOpened": "2025-12-17T02:59:24.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "LichSuSuCoService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\LichSuSuCoService.cs",
+              "RelativeDocumentMoniker": "Services\\LichSuSuCoService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\LichSuSuCoService.cs",
+              "RelativeToolTip": "Services\\LichSuSuCoService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAhwBoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T02:52:36.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "NhanVienProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NhanVienProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\NhanVienProfile.cs",
@@ -231,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ThietBiService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\ThietBiService.cs",
               "RelativeDocumentMoniker": "Services\\ThietBiService.cs",
@@ -239,12 +264,11 @@
               "RelativeToolTip": "Services\\ThietBiService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:54:45.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T02:54:45.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ThietBiDTO.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\ThietBiDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ThietBiDTO.cs",
@@ -252,12 +276,49 @@
               "RelativeToolTip": "DTOs\\ThietBiDTO.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAkwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T02:39:40.27Z",
+              "WhenOpened": "2025-12-04T02:39:40.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLyChatLuongSanPhamContext.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\QuanLyChatLuongSanPhamContext.cs",
+              "RelativeDocumentMoniker": "Models\\QuanLyChatLuongSanPhamContext.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\QuanLyChatLuongSanPhamContext.cs",
+              "RelativeToolTip": "Models\\QuanLyChatLuongSanPhamContext.cs",
+              "ViewState": "AQIAADoBAAAAAAAAAAAtwE0BAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T09:32:27.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAQwNkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:57:26.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LichSuSuCoController.cs",
+              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\LichSuSuCoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LichSuSuCoController.cs",
+              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\LichSuSuCoController.cs",
+              "RelativeToolTip": "Controllers\\LichSuSuCoController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDwAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:45:15.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ThietBiController.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\ThietBiController.cs",
               "RelativeDocumentMoniker": "Controllers\\ThietBiController.cs",
@@ -270,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "NguoiDungDTO.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NguoiDungDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\NguoiDungDTO.cs",
@@ -282,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -294,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "NguoiDungProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\NguoiDungProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\NguoiDungProfile.cs",
@@ -306,19 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QuanLyChatLuongSanPhamContext.cs",
-              "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\QuanLyChatLuongSanPhamContext.cs",
-              "RelativeDocumentMoniker": "Models\\QuanLyChatLuongSanPhamContext.cs",
-              "ToolTip": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\QuanLyChatLuongSanPhamContext.cs",
-              "RelativeToolTip": "Models\\QuanLyChatLuongSanPhamContext.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T09:32:27.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -330,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IAuthService.cs",
@@ -342,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -354,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "BilcoManagement.csproj",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\BilcoManagement.csproj",
               "RelativeDocumentMoniker": "BilcoManagement.csproj",
@@ -366,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -378,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "KiemKeKhoController.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\KiemKeKhoController.cs",
               "RelativeDocumentMoniker": "Controllers\\KiemKeKhoController.cs",
@@ -390,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "INguoiDungRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\INguoiDungRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\INguoiDungRepository.cs",
@@ -402,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "TonKhoProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\TonKhoProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\TonKhoProfile.cs",
@@ -414,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "NguoiDungRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\NguoiDungRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\NguoiDungRepository.cs",
@@ -426,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "KhoProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\KhoProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\KhoProfile.cs",
@@ -438,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "PhanQuyen.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\PhanQuyen.cs",
               "RelativeDocumentMoniker": "Models\\PhanQuyen.cs",
@@ -450,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ThietBiProfile.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Profiles\\ThietBiProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\ThietBiProfile.cs",
@@ -462,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "NhanVienRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\NhanVienRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\NhanVienRepository.cs",
@@ -474,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "NhanVienController.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\NhanVienController.cs",
               "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
@@ -486,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "TonKhoService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\TonKhoService.cs",
               "RelativeDocumentMoniker": "Services\\TonKhoService.cs",
@@ -498,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "IThietBiService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IThietBiService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IThietBiService.cs",
@@ -510,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "KhoController.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Controllers\\KhoController.cs",
               "RelativeDocumentMoniker": "Controllers\\KhoController.cs",
@@ -522,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "KhoService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\KhoService.cs",
               "RelativeDocumentMoniker": "Services\\KhoService.cs",
@@ -534,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "IKhoRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IKhoRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IKhoRepository.cs",
@@ -546,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "IKhoService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IKhoService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IKhoService.cs",
@@ -558,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IRepository.cs",
@@ -570,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "IThietBiRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IThietBiRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IThietBiRepository.cs",
@@ -582,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ThietBiRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\ThietBiRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ThietBiRepository.cs",
@@ -594,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "KhoRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\KhoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\KhoRepository.cs",
@@ -606,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "ITonKhoRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\ITonKhoRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ITonKhoRepository.cs",
@@ -618,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "TonKhoRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\TonKhoRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\TonKhoRepository.cs",
@@ -630,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "INhanVienRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\INhanVienRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\INhanVienRepository.cs",
@@ -642,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\BaseRepository.cs",
@@ -654,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "KhoDTO.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\KhoDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\KhoDTO.cs",
@@ -666,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "NguoiDung.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\NguoiDung.cs",
               "RelativeDocumentMoniker": "Models\\NguoiDung.cs",
@@ -678,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "ThietBi.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Models\\ThietBi.cs",
               "RelativeDocumentMoniker": "Models\\ThietBi.cs",
@@ -690,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "NhanVienDTO.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\DTOs\\NhanVienDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\NhanVienDTO.cs",
@@ -702,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "IService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Interfaces\\IService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IService.cs",
@@ -714,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "BaseService.cs",
               "DocumentMoniker": "D:\\CN9\\BilcoManagement\\BilcoManagement\\Services\\BaseService.cs",
               "RelativeDocumentMoniker": "Services\\BaseService.cs",
