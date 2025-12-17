@@ -278,8 +278,8 @@ public partial class QuanLyChatLuongSanPhamContext : DbContext
                 .HasMaxLength(100);
 
             entity.HasOne(d => d.NguoiQuanLyNavigation).WithMany(p => p.Khos)
-                .HasForeignKey(d => d.NguoiQuanLy)
-                .HasConstraintName("FK__Kho__NguoiQuanLy__5CD6CB2B");
+                .HasForeignKey(d => d.NguoiQuanLyID)
+                .HasConstraintName("FK__Kho__NguoiQuanLyID");
         });
 
         modelBuilder.Entity<KiemKeKho>(entity =>

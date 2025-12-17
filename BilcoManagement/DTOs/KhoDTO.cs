@@ -13,7 +13,7 @@ namespace BilcoManagement.DTOs
         [StringLength(200, ErrorMessage = "Địa chỉ không vượt quá 200 ký tự")]
         public string DiaChi { get; set; }
 
-        public int? NguoiQuanLy { get; set; }
+        public int? NguoiQuanLyID { get; set; }
 
         [StringLength(500, ErrorMessage = "Ghi chú không vượt quá 500 ký tự")]
         public string GhiChu { get; set; }
@@ -28,7 +28,7 @@ namespace BilcoManagement.DTOs
         [StringLength(200, ErrorMessage = "Địa chỉ không vượt quá 200 ký tự")]
         public string DiaChi { get; set; }
 
-        public int? NguoiQuanLy { get; set; }
+        public int? NguoiQuanLyID { get; set; }
 
         [StringLength(500, ErrorMessage = "Ghi chú không vượt quá 500 ký tự")]
         public string GhiChu { get; set; }

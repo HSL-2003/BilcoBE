@@ -44,4 +44,6 @@ public partial class NguoiDung
     public virtual ICollection<NhanVien> NhanViens { get; set; } = new List<NhanVien>();
 
     public virtual ICollection<LichSuSuCo> LichSuSuCos { get; set; } = new List<LichSuSuCo>();
+
+    public virtual ICollection<Kho> Khos { get; set; } = new List<Kho>();
 }

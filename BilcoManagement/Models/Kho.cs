@@ -13,7 +13,7 @@ public partial class Kho
 
     public string DiaChi { get; set; }
 
-    public int? NguoiQuanLy { get; set; }
+    public int? NguoiQuanLyID { get; set; }
 
     public string GhiChu { get; set; }
 
@@ -23,7 +23,7 @@ public partial class Kho
 
     public virtual ICollection<KiemKeKho> KiemKeKhos { get; set; } = new List<KiemKeKho>();
 
-    public virtual NhanVien NguoiQuanLyNavigation { get; set; }
+    public virtual NguoiDung NguoiQuanLyNavigation { get; set; }
 
     public virtual ICollection<PhieuNhapKho> PhieuNhapKhos { get; set; } = new List<PhieuNhapKho>();
 
