@@ -262,7 +262,7 @@ public partial class QuanLyChatLuongSanPhamContext : DbContext
 
             entity.HasOne(d => d.NguoiTaoNavigation).WithMany(p => p.KeHoachBaoTris)
                 .HasForeignKey(d => d.NguoiTao)
-                .HasConstraintName("FK__KeHoachBa__Nguoi__44FF419A");
+                .HasConstraintName("FK__KeHoachBa__Nguoi__NguoiDung");
         });
 
         modelBuilder.Entity<Kho>(entity =>

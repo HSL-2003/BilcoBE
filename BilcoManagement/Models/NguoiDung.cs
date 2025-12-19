@@ -48,4 +48,6 @@ public partial class NguoiDung
     public virtual ICollection<Kho> Khos { get; set; } = new List<Kho>();
 
     public virtual ICollection<VatTu> VatTus { get; set; } = new List<VatTu>();
+
+    public virtual ICollection<KeHoachBaoTri> KeHoachBaoTris { get; set; } = new List<KeHoachBaoTri>();
 }

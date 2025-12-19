@@ -31,7 +31,7 @@ public partial class KeHoachBaoTri
 
     public virtual ThietBi MaThietBiNavigation { get; set; }
 
-    public virtual NhanVien NguoiTaoNavigation { get; set; }
+    public virtual NguoiDung NguoiTaoNavigation { get; set; }
 
     public virtual ICollection<PhieuBaoTri> PhieuBaoTris { get; set; } = new List<PhieuBaoTri>();
 }

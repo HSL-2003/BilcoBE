@@ -31,6 +31,10 @@ namespace BilcoManagement.DTOs
         public int? NguoiTao { get; set; }
 
         public DateTime? NgayTao { get; set; }
+        
+        // Navigation properties
+        public string TenNguoiTao { get; set; }
+        public string TenThietBi { get; set; }
     }
 
     public class CreateKeHoachBaoTriDTO
