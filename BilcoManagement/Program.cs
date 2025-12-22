@@ -67,6 +67,10 @@ builder.Services.AddScoped<INguoiDungRepository, NguoiDungRepository>();
 builder.Services.AddScoped<IVatTuRepository, VatTuRepository>();
 builder.Services.AddScoped<ILoaiVatTuRepository, LoaiVatTuRepository>();
 builder.Services.AddScoped<INhaCungCapRepository, NhaCungCapRepository>();
+builder.Services.AddScoped<IPhanQuyenRepository, PhanQuyenRepository>();
+builder.Services.AddScoped<IPhieuBaoTriRepository, PhieuBaoTriRepository>();
+builder.Services.AddScoped<IPhieuNhapKhoRepository, PhieuNhapKhoRepository>();
+builder.Services.AddScoped<IPhieuXuatKhoRepository, PhieuXuatKhoRepository>();
 
 // Add Services
 builder.Services.AddScoped<IKhoService, KhoService>();
@@ -87,6 +91,11 @@ builder.Services.AddScoped<ILoaiThietBiService, LoaiThietBiService>();
 builder.Services.AddScoped<IVatTuService, VatTuService>();
 builder.Services.AddScoped<ILoaiVatTuService, LoaiVatTuService>();
 builder.Services.AddScoped<INhaCungCapService, NhaCungCapService>();
+builder.Services.AddScoped<INhanVienService, NhanVienService>();
+builder.Services.AddScoped<IPhanQuyenService, PhanQuyenService>();
+builder.Services.AddScoped<IPhieuBaoTriService, PhieuBaoTriService>();
+builder.Services.AddScoped<IPhieuNhapKhoService, PhieuNhapKhoService>();
+builder.Services.AddScoped<IPhieuXuatKhoService, PhieuXuatKhoService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>() ?? new JwtSettings();

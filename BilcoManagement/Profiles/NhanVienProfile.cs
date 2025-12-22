@@ -8,13 +8,12 @@ namespace BilcoManagement.Profiles
     {
         public NhanVienProfile()
         {
-            CreateMap<Models.NhanVien, NhanVienDTO>().ReverseMap();
+            CreateMap<Models.NhanVien, NhanVienDTO>()
+                .ForMember(dest => dest.TenNguoiDung, opt => opt.MapFrom(src => src.User != null ? src.User.TenDangNhap : null));
+            
+            CreateMap<NhanVienDTO, Models.NhanVien>().ReverseMap();
             CreateMap<CreateNhanVienDTO, Models.NhanVien>();
             CreateMap<UpdateNhanVienDTO, Models.NhanVien>()
-                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
-                
-            // Add mapping for UpdateNhanVienDto
-            CreateMap<UpdateNhanVienDto, Models.NhanVien>()
                 .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
         }
     }

@@ -24,7 +24,14 @@ namespace BilcoManagement.DTOs
         [StringLength(50, ErrorMessage = "Phòng ban không vượt quá 50 ký tự")]
         public string PhongBan { get; set; }
 
+        public DateTime? NgayTao { get; set; }
+
         public bool? TrangThai { get; set; } = true;
+
+        public int? UserID { get; set; }
+        
+        // Navigation properties
+        public string TenNguoiDung { get; set; }
     }
 
     public class CreateNhanVienDTO
@@ -48,6 +55,8 @@ namespace BilcoManagement.DTOs
         public string PhongBan { get; set; }
 
         public bool? TrangThai { get; set; } = true;
+
+        public int? UserID { get; set; }
     }
 
     public class UpdateNhanVienDTO : CreateNhanVienDTO
