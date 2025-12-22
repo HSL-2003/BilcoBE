@@ -70,6 +70,15 @@ namespace BilcoManagement.Services
             var phieuBaoTri = _mapper.Map<PhieuBaoTri>(createDto);
             phieuBaoTri.ThoiGianBatDau = phieuBaoTri.ThoiGianBatDau ?? DateTime.Now;
             phieuBaoTri.TrangThai = "ChoDuyet"; // Mặc định trạng thái chờ duyệt
+            
+            // Gán người tạo là user hiện tại (lấy từ NguoiDung)
+            var currentUserNhanVien = await _context.NhanViens
+                .Where(nv => nv.UserID == currentUserId)
+                .FirstOrDefaultAsync();
+            if (currentUserNhanVien != null)
+            {
+                phieuBaoTri.NhanVienThucHien = currentUserNhanVien.MaNV;
+            }
 
             await _repository.AddAsync(phieuBaoTri);
             await _context.SaveChangesAsync();
