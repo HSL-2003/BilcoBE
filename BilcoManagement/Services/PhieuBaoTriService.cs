@@ -23,6 +23,13 @@ namespace BilcoManagement.Services
 
         public override async Task<PhieuBaoTriDTO> CreateAsync(CreatePhieuBaoTriDTO createDto)
         {
+            // Lấy thông tin user hiện tại
+            var currentUserId = GetCurrentUserId();
+            if (currentUserId == null)
+            {
+                throw new UnauthorizedAccessException("Không xác định được người dùng hiện tại");
+            }
+
             // Kiểm tra kế hoạch bảo trì có tồn tại không
             if (createDto.MaKeHoach.HasValue)
             {
@@ -62,6 +69,7 @@ namespace BilcoManagement.Services
             // Tạo PhieuBaoTri entity
             var phieuBaoTri = _mapper.Map<PhieuBaoTri>(createDto);
             phieuBaoTri.ThoiGianBatDau = phieuBaoTri.ThoiGianBatDau ?? DateTime.Now;
+            phieuBaoTri.TrangThai = "ChoDuyet"; // Mặc định trạng thái chờ duyệt
 
             await _repository.AddAsync(phieuBaoTri);
             await _context.SaveChangesAsync();
@@ -76,7 +84,32 @@ namespace BilcoManagement.Services
 
         public override async Task<IEnumerable<PhieuBaoTriDTO>> GetAllAsync()
         {
-            var entities = await _context.PhieuBaoTris
+            var currentUserId = GetCurrentUserId();
+            var currentUserRole = GetCurrentUserRole();
+            
+            IQueryable<PhieuBaoTri> query = _context.PhieuBaoTris;
+            
+            // Nếu không phải admin, chỉ xem phiếu do mình tạo
+            if (currentUserRole != "Admin")
+            {
+                // Lấy MaNV của user hiện tại
+                var currentUserNhanVien = await _context.NhanViens
+                    .Where(nv => nv.UserID == currentUserId)
+                    .FirstOrDefaultAsync();
+                    
+                if (currentUserNhanVien != null)
+                {
+                    // Chỉ xem phiếu do mình tạo (dựa trên NhanVienThucHien)
+                    query = query.Where(pb => pb.NhanVienThucHien == currentUserNhanVien.MaNV);
+                }
+                else
+                {
+                    // Nếu không có MaNV, trả về danh sách rỗng
+                    return new List<PhieuBaoTriDTO>();
+                }
+            }
+            
+            var entities = await query
                 .Include(pb => pb.MaKeHoachNavigation)
                 .Include(pb => pb.MaThietBiNavigation)
                 .Include(pb => pb.NhanVienThucHienNavigation)
@@ -104,6 +137,13 @@ namespace BilcoManagement.Services
 
         public override async Task UpdateAsync(int id, UpdatePhieuBaoTriDTO updateDto)
         {
+            // Kiểm tra quyền - chỉ admin mới được sửa
+            var currentUserRole = GetCurrentUserRole();
+            if (currentUserRole != "Admin")
+            {
+                throw new UnauthorizedAccessException("Chỉ admin mới được sửa phiếu bảo trì");
+            }
+            
             var entity = await _repository.GetByIdAsync(id);
             if (entity == null)
             {
@@ -153,6 +193,34 @@ namespace BilcoManagement.Services
                 TenNhanVienThucHien = entity.NhanVienThucHienNavigation?.HoTen,
                 TenNguoiXacNhan = entity.NguoiXacNhanNavigation?.HoTen
             };
+        }
+
+        public override async Task DeleteAsync(int id)
+        {
+            // Kiểm tra quyền - chỉ admin mới được xóa
+            var currentUserRole = GetCurrentUserRole();
+            if (currentUserRole != "Admin")
+            {
+                throw new UnauthorizedAccessException("Chỉ admin mới được xóa phiếu bảo trì");
+            }
+            
+            await base.DeleteAsync(id);
+        }
+        
+        private int? GetCurrentUserId()
+        {
+            var userIdClaim = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim != null && int.TryParse(userIdClaim.Value, out var userId))
+            {
+                return userId;
+            }
+            return null;
+        }
+        
+        private string GetCurrentUserRole()
+        {
+            var roleClaim = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Role);
+            return roleClaim?.Value ?? string.Empty;
         }
 
         private async Task ValidateRelationships(UpdatePhieuBaoTriDTO updateDto, int currentId)

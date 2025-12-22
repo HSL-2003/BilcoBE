@@ -62,6 +62,10 @@ namespace BilcoManagement.Controllers
                 var result = await _phieuBaoTriService.CreateAsync(createDto);
                 return CreatedAtAction(nameof(GetById), new { id = result.MaPhieu }, result);
             }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
             catch (KeyNotFoundException ex)
             {
                 return NotFound(new { message = ex.Message });
@@ -89,6 +93,10 @@ namespace BilcoManagement.Controllers
                 await _phieuBaoTriService.UpdateAsync(id, updateDto);
                 return NoContent();
             }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
             catch (KeyNotFoundException ex)
             {
                 return NotFound(new { message = ex.Message });
@@ -110,6 +118,10 @@ namespace BilcoManagement.Controllers
             {
                 await _phieuBaoTriService.DeleteAsync(id);
                 return NoContent();
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
             }
             catch (KeyNotFoundException ex)
             {
