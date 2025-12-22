@@ -11,8 +11,8 @@ namespace BilcoManagement.Profiles
             CreateMap<PhieuBaoTri, PhieuBaoTriDTO>()
                 .ForMember(dest => dest.TenKeHoach, opt => opt.MapFrom(src => src.MaKeHoachNavigation != null ? src.MaKeHoachNavigation.TieuDe : null))
                 .ForMember(dest => dest.TenThietBi, opt => opt.MapFrom(src => src.MaThietBiNavigation != null ? src.MaThietBiNavigation.TenThietBi : null))
-                .ForMember(dest => dest.TenNhanVienThucHien, opt => opt.MapFrom(src => src.NhanVienThucHienNavigation != null ? src.NhanVienThucHienNavigation.HoTen : null))
-                .ForMember(dest => dest.TenNguoiXacNhan, opt => opt.MapFrom(src => src.NguoiXacNhanNavigation != null ? src.NguoiXacNhanNavigation.HoTen : null));
+                .ForMember(dest => dest.TenNguoiTao, opt => opt.MapFrom(src => src.NguoiTaoNavigation != null ? src.NguoiTaoNavigation.TenDangNhap : null))
+                .ForMember(dest => dest.TenNguoiDuyet, opt => opt.MapFrom(src => src.NguoiDuyetNavigation != null ? src.NguoiDuyetNavigation.TenDangNhap : null));
             
             CreateMap<PhieuBaoTriDTO, PhieuBaoTri>().ReverseMap();
             CreateMap<CreatePhieuBaoTriDTO, PhieuBaoTri>();

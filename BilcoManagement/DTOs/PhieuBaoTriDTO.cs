@@ -10,7 +10,15 @@ namespace BilcoManagement.DTOs
 
         public int? MaThietBi { get; set; }
 
-        public int? NhanVienThucHien { get; set; }
+        public int? NguoiTao { get; set; }
+
+        public int? NguoiDuyet { get; set; }
+
+        public string TrangThaiDuyet { get; set; }
+
+        public string LyDoTuChoi { get; set; }
+
+        public DateTime? NgayDuyet { get; set; }
 
         public DateTime? ThoiGianBatDau { get; set; }
 
@@ -28,18 +36,14 @@ namespace BilcoManagement.DTOs
         [StringLength(500)]
         public string GhiChu { get; set; }
 
-        public int? NguoiXacNhan { get; set; }
-
-        public DateTime? NgayXacNhan { get; set; }
-
         [StringLength(50)]
         public string TrangThai { get; set; }
         
         // Navigation properties
         public string TenKeHoach { get; set; }
         public string TenThietBi { get; set; }
-        public string TenNhanVienThucHien { get; set; }
-        public string TenNguoiXacNhan { get; set; }
+        public string TenNguoiTao { get; set; }
+        public string TenNguoiDuyet { get; set; }
     }
 
     public class CreatePhieuBaoTriDTO
@@ -74,9 +78,5 @@ namespace BilcoManagement.DTOs
     {
         [Required]
         public int MaPhieu { get; set; }
-
-        public int? NguoiXacNhan { get; set; }
-
-        public DateTime? NgayXacNhan { get; set; }
     }
 }

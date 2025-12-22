@@ -13,7 +13,15 @@ public partial class PhieuBaoTri
 
     public int? MaThietBi { get; set; }
 
-    public int? NhanVienThucHien { get; set; }
+    public int? NguoiTao { get; set; }
+
+    public int? NguoiDuyet { get; set; }
+
+    public string TrangThaiDuyet { get; set; } = "ChoDuyet"; // ChoDuyet/DaDuyet/TuChoi
+
+    public string LyDoTuChoi { get; set; }
+
+    public DateTime? NgayDuyet { get; set; }
 
     public DateTime? ThoiGianBatDau { get; set; }
 
@@ -27,10 +35,6 @@ public partial class PhieuBaoTri
 
     public string GhiChu { get; set; }
 
-    public int? NguoiXacNhan { get; set; }
-
-    public DateTime? NgayXacNhan { get; set; }
-
     public string TrangThai { get; set; }
 
     public virtual ICollection<ChiTietPhuTung> ChiTietPhuTungs { get; set; } = new List<ChiTietPhuTung>();
@@ -41,9 +45,9 @@ public partial class PhieuBaoTri
 
     public virtual ThietBi MaThietBiNavigation { get; set; }
 
-    public virtual NhanVien NguoiXacNhanNavigation { get; set; }
+    public virtual NguoiDung NguoiTaoNavigation { get; set; }
 
-    public virtual NhanVien NhanVienThucHienNavigation { get; set; }
+    public virtual NguoiDung NguoiDuyetNavigation { get; set; }
 
     public virtual ICollection<PhieuXuatKho> PhieuXuatKhos { get; set; } = new List<PhieuXuatKho>();
 }

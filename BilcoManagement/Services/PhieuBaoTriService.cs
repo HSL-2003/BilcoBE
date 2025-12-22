@@ -70,15 +70,8 @@ namespace BilcoManagement.Services
             var phieuBaoTri = _mapper.Map<PhieuBaoTri>(createDto);
             phieuBaoTri.ThoiGianBatDau = phieuBaoTri.ThoiGianBatDau ?? DateTime.Now;
             phieuBaoTri.TrangThai = "ChoDuyet"; // Mặc định trạng thái chờ duyệt
-            
-            // Gán người tạo là user hiện tại (lấy từ NguoiDung)
-            var currentUserNhanVien = await _context.NhanViens
-                .Where(nv => nv.UserID == currentUserId)
-                .FirstOrDefaultAsync();
-            if (currentUserNhanVien != null)
-            {
-                phieuBaoTri.NhanVienThucHien = currentUserNhanVien.MaNV;
-            }
+            phieuBaoTri.NguoiTao = currentUserId; // Gán người tạo là user hiện tại
+            phieuBaoTri.TrangThaiDuyet = "ChoDuyet"; // Mặc định chờ duyệt
 
             await _repository.AddAsync(phieuBaoTri);
             await _context.SaveChangesAsync();
@@ -98,31 +91,17 @@ namespace BilcoManagement.Services
             
             IQueryable<PhieuBaoTri> query = _context.PhieuBaoTris;
             
-            // Nếu không phải admin, chỉ xem phiếu do mình tạo
-            if (currentUserRole != "Admin")
+            // Nếu không phải admin, chỉ lấy các phiếu do người dùng hiện tại tạo
+            if (currentUserRole != "Admin" && currentUserId.HasValue)
             {
-                // Lấy MaNV của user hiện tại
-                var currentUserNhanVien = await _context.NhanViens
-                    .Where(nv => nv.UserID == currentUserId)
-                    .FirstOrDefaultAsync();
-                    
-                if (currentUserNhanVien != null)
-                {
-                    // Chỉ xem phiếu do mình tạo (dựa trên NhanVienThucHien)
-                    query = query.Where(pb => pb.NhanVienThucHien == currentUserNhanVien.MaNV);
-                }
-                else
-                {
-                    // Nếu không có MaNV, trả về danh sách rỗng
-                    return new List<PhieuBaoTriDTO>();
-                }
+                query = query.Where(pb => pb.NguoiTao == currentUserId);
             }
             
             var entities = await query
                 .Include(pb => pb.MaKeHoachNavigation)
                 .Include(pb => pb.MaThietBiNavigation)
-                .Include(pb => pb.NhanVienThucHienNavigation)
-                .Include(pb => pb.NguoiXacNhanNavigation)
+                .Include(pb => pb.NguoiTaoNavigation)
+                .Include(pb => pb.NguoiDuyetNavigation)
                 .ToListAsync();
             
             // Manual mapping for each entity
@@ -135,8 +114,8 @@ namespace BilcoManagement.Services
             var entity = await _context.PhieuBaoTris
                 .Include(pb => pb.MaKeHoachNavigation)
                 .Include(pb => pb.MaThietBiNavigation)
-                .Include(pb => pb.NhanVienThucHienNavigation)
-                .Include(pb => pb.NguoiXacNhanNavigation)
+                .Include(pb => pb.NguoiTaoNavigation)
+                .Include(pb => pb.NguoiDuyetNavigation)
                 .FirstOrDefaultAsync(pb => pb.MaPhieu == id);
             
             if (entity == null) return null;
@@ -163,10 +142,8 @@ namespace BilcoManagement.Services
             await ValidateRelationships(updateDto, id);
 
             // Nếu có người xác nhận, gán ngày xác nhận
-            if (updateDto.NguoiXacNhan.HasValue && !entity.NguoiXacNhan.HasValue)
-            {
-                entity.NgayXacNhan = DateTime.Now;
-            }
+            // NgayXacNhan field không còn tồn tại trong model mới
+            // Có thể thêm logic xử lý khác nếu cần
 
             _mapper.Map(updateDto, entity);
             await _repository.UpdateAsync(id, entity);
@@ -176,8 +153,8 @@ namespace BilcoManagement.Services
         {
             await _context.Entry(phieuBaoTri).Reference(pb => pb.MaKeHoachNavigation).LoadAsync();
             await _context.Entry(phieuBaoTri).Reference(pb => pb.MaThietBiNavigation).LoadAsync();
-            await _context.Entry(phieuBaoTri).Reference(pb => pb.NhanVienThucHienNavigation).LoadAsync();
-            await _context.Entry(phieuBaoTri).Reference(pb => pb.NguoiXacNhanNavigation).LoadAsync();
+            await _context.Entry(phieuBaoTri).Reference(pb => pb.NguoiTaoNavigation).LoadAsync();
+            await _context.Entry(phieuBaoTri).Reference(pb => pb.NguoiDuyetNavigation).LoadAsync();
         }
 
         private PhieuBaoTriDTO MapToDTO(PhieuBaoTri entity)
@@ -187,20 +164,22 @@ namespace BilcoManagement.Services
                 MaPhieu = entity.MaPhieu,
                 MaKeHoach = entity.MaKeHoach,
                 MaThietBi = entity.MaThietBi,
-                NhanVienThucHien = entity.NhanVienThucHien,
+                NguoiTao = entity.NguoiTao,
+                NguoiDuyet = entity.NguoiDuyet,
+                TrangThaiDuyet = entity.TrangThaiDuyet,
+                LyDoTuChoi = entity.LyDoTuChoi,
+                NgayDuyet = entity.NgayDuyet,
                 ThoiGianBatDau = entity.ThoiGianBatDau,
                 ThoiGianKetThuc = entity.ThoiGianKetThuc,
                 TinhTrangTruocBT = entity.TinhTrangTruocBT,
                 TinhTrangSauBT = entity.TinhTrangSauBT,
                 KetQua = entity.KetQua,
                 GhiChu = entity.GhiChu,
-                NguoiXacNhan = entity.NguoiXacNhan,
-                NgayXacNhan = entity.NgayXacNhan,
                 TrangThai = entity.TrangThai,
                 TenKeHoach = entity.MaKeHoachNavigation?.TieuDe,
                 TenThietBi = entity.MaThietBiNavigation?.TenThietBi,
-                TenNhanVienThucHien = entity.NhanVienThucHienNavigation?.HoTen,
-                TenNguoiXacNhan = entity.NguoiXacNhanNavigation?.HoTen
+                TenNguoiTao = entity.NguoiTaoNavigation?.TenDangNhap,
+                TenNguoiDuyet = entity.NguoiDuyetNavigation?.TenDangNhap,
             };
         }
 
@@ -230,6 +209,65 @@ namespace BilcoManagement.Services
         {
             var roleClaim = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.Role);
             return roleClaim?.Value ?? string.Empty;
+        }
+
+        public async Task<PhieuBaoTriDTO> DuyetPhieuBaoTriAsync(int id, string ghiChu = null)
+        {
+            var currentUserId = GetCurrentUserId();
+            if (!currentUserId.HasValue)
+            {
+                throw new UnauthorizedAccessException("Không xác định được người duyệt");
+            }
+
+            var phieuBaoTri = await _repository.GetByIdAsync(id);
+            if (phieuBaoTri == null)
+            {
+                throw new KeyNotFoundException($"Không tìm thấy phiếu bảo trì với ID: {id}");
+            }
+
+            // Cập nhật thông tin duyệt
+            phieuBaoTri.TrangThaiDuyet = "DaDuyet";
+            phieuBaoTri.NguoiDuyet = currentUserId;
+            phieuBaoTri.NgayDuyet = DateTime.Now;
+            phieuBaoTri.GhiChu = ghiChu ?? phieuBaoTri.GhiChu;
+
+            await _repository.UpdateAsync(phieuBaoTri.MaPhieu, phieuBaoTri);
+            await _context.SaveChangesAsync();
+
+            await LoadNavigationProperties(phieuBaoTri);
+            return MapToDTO(phieuBaoTri);
+        }
+
+        public async Task<PhieuBaoTriDTO> TuChoiPhieuBaoTriAsync(int id, string lyDoTuChoi)
+        {
+            if (string.IsNullOrWhiteSpace(lyDoTuChoi))
+            {
+                throw new ArgumentException("Lý do từ chối không được để trống");
+            }
+
+            var currentUserId = GetCurrentUserId();
+            if (!currentUserId.HasValue)
+            {
+                throw new UnauthorizedAccessException("Không xác định được người từ chối");
+            }
+
+            var phieuBaoTri = await _repository.GetByIdAsync(id);
+            if (phieuBaoTri == null)
+            {
+                throw new KeyNotFoundException($"Không tìm thấy phiếu bảo trì với ID: {id}");
+            }
+
+            // Cập nhật thông tin từ chối
+            phieuBaoTri.TrangThaiDuyet = "TuChoi";
+            phieuBaoTri.LyDoTuChoi = lyDoTuChoi;
+            phieuBaoTri.NguoiDuyet = currentUserId;
+            phieuBaoTri.NgayDuyet = DateTime.Now;
+
+            await _repository.UpdateAsync(phieuBaoTri.MaPhieu, phieuBaoTri);
+            await _context.SaveChangesAsync();
+
+            await LoadNavigationProperties(phieuBaoTri);
+            return MapToDTO(phieuBaoTri);
         }
 
         private async Task ValidateRelationships(UpdatePhieuBaoTriDTO updateDto, int currentId)
@@ -264,17 +302,6 @@ namespace BilcoManagement.Services
                 if (!nhanVienExists)
                 {
                     throw new KeyNotFoundException($"Không tìm thấy nhân viên với mã: {updateDto.NhanVienThucHien}");
-                }
-            }
-
-            if (updateDto.NguoiXacNhan.HasValue)
-            {
-                var nhanVienExists = await _context.NhanViens
-                    .AnyAsync(nv => nv.MaNV == updateDto.NguoiXacNhan.Value);
-                    
-                if (!nhanVienExists)
-                {
-                    throw new KeyNotFoundException($"Không tìm thấy nhân viên xác nhận với mã: {updateDto.NguoiXacNhan}");
                 }
             }
         }

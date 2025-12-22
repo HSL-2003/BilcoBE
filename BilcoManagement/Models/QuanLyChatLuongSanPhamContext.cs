@@ -477,7 +477,7 @@ public partial class QuanLyChatLuongSanPhamContext : DbContext
 
             entity.Property(e => e.GhiChu).HasMaxLength(1000);
             entity.Property(e => e.KetQua).HasMaxLength(50);
-            entity.Property(e => e.NgayXacNhan).HasColumnType("datetime");
+            entity.Property(e => e.NgayDuyet).HasColumnType("datetime");
             entity.Property(e => e.ThoiGianBatDau).HasColumnType("datetime");
             entity.Property(e => e.ThoiGianKetThuc).HasColumnType("datetime");
             entity.Property(e => e.TinhTrangSauBT).HasMaxLength(200);
@@ -494,18 +494,18 @@ public partial class QuanLyChatLuongSanPhamContext : DbContext
                 .HasForeignKey(d => d.MaThietBi)
                 .HasConstraintName("FK__PhieuBaoT__MaThi__49C3F6B7");
 
-            entity.HasOne(d => d.NguoiXacNhanNavigation).WithMany(p => p.PhieuBaoTriNguoiXacNhanNavigations)
-                .HasForeignKey(d => d.NguoiXacNhan)
-                .HasConstraintName("FK__PhieuBaoT__Nguoi__4BAC3F29");
+            entity.HasOne(d => d.NguoiTaoNavigation).WithMany(p => p.PhieuBaoTriNguoiTaoNavigations)
+                .HasForeignKey(d => d.NguoiTao)
+                .HasConstraintName("FK__PhieuBaoT__NguoiT__4BAC3F29");
 
-            entity.HasOne(d => d.NhanVienThucHienNavigation).WithMany(p => p.PhieuBaoTriNhanVienThucHienNavigations)
-                .HasForeignKey(d => d.NhanVienThucHien)
-                .HasConstraintName("FK__PhieuBaoT__NhanV__4AB81AF0");
+            entity.HasOne(d => d.NguoiDuyetNavigation).WithMany(p => p.PhieuBaoTriNguoiDuyetNavigations)
+                .HasForeignKey(d => d.NguoiDuyet)
+                .HasConstraintName("FK__PhieuBaoT__NguoiD__4AB81AF0");
         });
 
         modelBuilder.Entity<PhieuNhapKho>(entity =>
         {
-            entity.HasKey(e => e.MaPhieuNhap).HasName("PK__PhieuNha__1470EF3B2B4F1850");
+            entity.HasKey(e => e.MaPhieuNhap).HasName("PK__PhieuNha__2660BFE02A7774C5");
 
             entity.ToTable("PhieuNhapKho");
 

@@ -132,5 +132,65 @@ namespace BilcoManagement.Controllers
                 return StatusCode(500, new { message = "Lỗi khi xóa phiếu bảo trì", error = ex.Message });
             }
         }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("{id}/duyet")]
+        public async Task<IActionResult> DuyetPhieuBaoTri(int id, [FromBody] DuyetPhieuBaoTriDTO duyetDto)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var result = await _phieuBaoTriService.DuyetPhieuBaoTriAsync(id, duyetDto.GhiChu);
+                return Ok(result);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi khi duyệt phiếu bảo trì", error = ex.Message });
+            }
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("{id}/tuchoi")]
+        public async Task<IActionResult> TuChoiPhieuBaoTri(int id, [FromBody] TuChoiPhieuBaoTriDTO tuChoiDto)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var result = await _phieuBaoTriService.TuChoiPhieuBaoTriAsync(id, tuChoiDto.LyDoTuChoi);
+                return Ok(result);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Lỗi khi từ chối phiếu bảo trì", error = ex.Message });
+            }
+        }
     }
 }

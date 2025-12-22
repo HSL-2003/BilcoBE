@@ -49,5 +49,9 @@ public partial class NguoiDung
 
     public virtual ICollection<VatTu> VatTus { get; set; } = new List<VatTu>();
 
+    public virtual ICollection<PhieuBaoTri> PhieuBaoTriNguoiTaoNavigations { get; set; } = new List<PhieuBaoTri>();
+
+    public virtual ICollection<PhieuBaoTri> PhieuBaoTriNguoiDuyetNavigations { get; set; } = new List<PhieuBaoTri>();
+
     public virtual ICollection<KeHoachBaoTri> KeHoachBaoTris { get; set; } = new List<KeHoachBaoTri>();
 }
