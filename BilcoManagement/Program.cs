@@ -24,7 +24,6 @@ builder.Services.AddHttpContextAccessor();
 // Add AutoMapper
 builder.Services.AddAutoMapper(
     typeof(Program),
-    typeof(NhanVienProfile),
     typeof(KhoProfile),
     typeof(TonKhoProfile),
     typeof(ChiTietDieuChuyenProfile),
@@ -47,7 +46,7 @@ builder.Services.AddAutoMapper(
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 
 // Add Repositories
-builder.Services.AddScoped<INhanVienRepository, NhanVienRepository>();
+
 builder.Services.AddScoped<IKhoRepository, KhoRepository>();
 builder.Services.AddScoped<ITonKhoRepository, TonKhoRepository>();
 builder.Services.AddScoped<IChiTietDieuChuyenRepository, ChiTietDieuChuyenRepository>();
@@ -91,7 +90,6 @@ builder.Services.AddScoped<ILoaiThietBiService, LoaiThietBiService>();
 builder.Services.AddScoped<IVatTuService, VatTuService>();
 builder.Services.AddScoped<ILoaiVatTuService, LoaiVatTuService>();
 builder.Services.AddScoped<INhaCungCapService, NhaCungCapService>();
-builder.Services.AddScoped<INhanVienService, NhanVienService>();
 builder.Services.AddScoped<IPhanQuyenService, PhanQuyenService>();
 builder.Services.AddScoped<IPhieuBaoTriService, PhieuBaoTriService>();
 builder.Services.AddScoped<IPhieuNhapKhoService, PhieuNhapKhoService>();
